@@ -72,7 +72,7 @@ LOAD_SCHEMA() {
       status_check
 
       print_head "Load Schema"
-      mongo --host mongodb-54.152.183.163 </app/schema/${component}.js &>>${LOG}
+      mongo --host mongodb-172.31.23.231 </app/schema/${component}.js &>>${LOG}
       status_check
     fi
 
